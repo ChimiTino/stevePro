@@ -1,118 +1,243 @@
-.container {
-  padding: 0 2rem;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+
+
+
+.newWorkConty{
+  width: 100%;
+  padding-bottom: 10vw;
+  background-color: rgb(255, 215, 134);
+  position: relative;
+  z-index: 4;
+  margin-top: -0.1vw;
+}
+.steve{
+  
+}
+ .steve img{
+  bottom: 0px;
+  width: 80%;
+  margin-top: 25.5vw;
+  position: relative;
+  z-index:3;
+
+}
+.read button:hover{
+  background-color: rgba(255, 255, 255, 0.37);
+  transition: 0.3s;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgba(255, 255, 255, 0.37);
+}
+.read button{
+  bottom: 2vw;
+  width: 8vw;
+  padding: 0.5vw;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+  font-family: Montserrat , "sans-serif";
+  cursor: pointer;
+  font-size: 0.8vw;
+  margin-right: 2vw;
+  margin-top: 8vw;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.read{
+  width: 100%;
+  margin-top: -14vw;
+  position: relative;text-align: center;
+  height: 14vw;
+  z-index: 2;
+  bottom: 0px;
+  background-image: linear-gradient(to top, black,rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0))  ;
+}
+.gallery{
+  width: 60%;
+  background-color: rgb(230, 230, 230);
+}
+
+.gallery h2{
+  text-align: right;
+  margin-right: 8vw;
+  margin-top: 5vw;
+  font-size: 3vw;
+  font-family: Montserrat , "sans-serif";
+  color: rgba(0, 0, 0, 0.329);
+}
+.galleryImg:hover{
+  filter: brightness(100%);
+  transition: 0.3s;
+}
+.galleryImg{
+  filter: brightness(70%);
+  transition: 0.3s;
+  width: 17vw;
+}
+.galleryCont{
+  display: flex;
+  width: 100%;
+}
+.cardImg:hover{
+  filter: brightness(100%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.cardImg:hover.cardImg p{
+  opacity: 0.7;transition: 0.3s;
+}
+.cardImg{
+  margin-right: 2vw;
+  margin-top: 2vw;
+}
+.cardImg p{
+  margin-top: -2.8vw;
+  opacity: 0;
+  position: absolute;
+  padding: 0.5vw;
+  padding-left: 1vw;
+  color: #fff;
+  font-family: Montserrat , "sans-serif";
+  font-size: 0.8vw;background-color: black;
+}
+
+.steve{
+  width: 50%;
+}
+
+.flex{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  height:44vw;
+  margin-top: 2vw;
+  width: 60%;
+  margin-left: 15%;
+  
+}
+.button:hover{
+  background-color: rgba(0, 0, 0, 0.685);
+  color:rgb(255, 255, 255);
+  transition: 0.3s;
+  border:2px solid rgba(0, 0, 0, 0.685);
+   font-weight: 500;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.button{
+  background-color: transparent;
+  width: 20%;
+  margin-top: 1.3vw;font-family: Montserrat , "sans-serif";
+  padding: .4vw; transition: 0.3s;cursor: pointer;
+  font-size: 1vw;
+font-weight: 500;
+  
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.container{
+margin-top: -1VW;
+position: relative;
+width: 100%;
+padding-bottom: 7vw;
+}
+.details h1{
+  font-family: Montserrat , "sans-serif";
+  font-size: 4vw;
+}
+.line{
+  width: 60%;
+  margin-left:20%;
+  height:3px;
+  background-color: black;
+  position: relative;
+  margin-top: -1vw;
+
+}
+.details H3{
+  font-family: 'Comfortaa', cursive;
+  margin-top: 2vw;
+  width: 70%;
+  margin-left: 15%;
+  font-weight: 900;
+  font-size: 1.3vw;
+}
+.details{
+  width: 40%;
+  margin-left: 6vw;
+ margin-top: -2vw;
+  text-align: center;
+  position: relative;
+}
+.homeCont{
+  display: flex;
+  justify-content: center;
+  margin-top: 3vw;
+}
+.slides{
+width:30%;
+background-color:rgb(255, 255, 255);
+height:17vw;
+margin-top: 3vw;
+position: relative;
+}
+.slide p{
+  position: absolute;
+  z-index:2;
+  opacity: 0.8;
+  font-size:0.6vw;
+  background-color: black;
+  padding:0.6vw;
+  padding-left: 2vw;
+  bottom: -0vw;
+  color: #fff;
+}
+.slide{
+
+z-index: 2;
+}
+.slide img{
+  width: 100%;
+  height: 17vw;
+  position: absolute;
+}
+.image{
+  position: absolute;
+  margin-top:-1vw;
+  width: 100%;
+  opacity: 1;
+  z-index: -1;
+
+}
+.nav {
+  margin-top: 1vw;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+ }
+.logo{
+  font-size: 2.5vw;
+  padding: 0.3vw;
+}
+.navlist ul{
+  display: flex; 
+  position: relative;
+  z-index: 2;
+}
+.navlist ul li{
+  margin-left: 5vw;position: relative;
+  z-index: 2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 0.3vw;
+  border-bottom: 2px solid rgba(255, 0, 0, 0);
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+  
+.navlist ul li:hover{
+  border-bottom: 2px solid red;
+  
 }
 
 @media (prefers-color-scheme: dark) {
