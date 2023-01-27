@@ -1,0 +1,555 @@
+
+
+.credit{
+  margin-bottom: 8vw;
+}
+.experiance h1 ,.education h1{ 
+  font-size: 3.5vw;
+  color: rgba(0, 0, 0, 0.404);
+  margin-left: -0.3vw;
+  margin-top: 6vw;
+}
+.education h4{
+  font-size: 1.3vw;
+  color: rgba(167, 0, 0, 0.726);
+  margin: 0;
+}
+.experiance h4 {
+font-size: 1.3vw;
+  color: rgba(170, 77, 0, 0.678);
+  margin: 0;
+
+}
+.experiance{
+  margin-left: -11vw;
+}
+.credit{
+  display: flex;
+  width: 100%;
+  justify-content:space-evenly;
+}
+.aboutMe header{
+  margin-left: 5vw;
+}
+
+.aboutMe p{
+  font-size: 1.1vw;
+}
+.aboutMe h1{
+  font-size: 4vw;
+  margin-top: 6vw;
+}
+.aboutMe{
+  font-family: 'Montserrat', sans-serif;
+  width: 86vw;
+
+}
+.aboutMe{
+  display: flex;
+}
+.paint{
+  position: absolute;
+  margin-left: -500px;
+  z-index: 0;
+  width: 50%;
+  display: none;
+}
+
+.gif p{
+  animation-name: spin;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+ animation-name: spins;
+  margin-top: 0.5vw;
+}
+.gif{
+  font-size: 4vw;
+  border-radius: 50%;
+position: sticky;
+margin-top: 20%;
+height: 7vw;
+padding-left: 1.6vw;
+display: flex;
+width: 7%;
+margin-left:46% ; 
+background-color: rgb(255, 255, 255);
+animation-name: spin;
+animation-duration: 1.6s;
+animation-iteration-count: infinite;
+border:rgb(255, 255, 255) 1px solid;
+}
+
+
+
+@keyframes spins {
+ 
+  
+}
+@keyframes spin {
+  0% {transform: rotate(0deg)} 
+  10%{background-color: transparent;
+    transform: rotate(0deg);
+  margin-top: 15%;}
+  50% {border:rgb(255, 255, 255) 1px solid; 
+     background-color: rgba(0, 0, 0, 0.925);
+    color: rgba(0, 0, 0, 0.377);
+    margin-top: 23%;
+  
+  }
+  
+  100% {transform: rotate(360deg)}
+}
+
+.line3{
+  width: 80%;
+  margin-left: 10%;
+  height: 0.17vw;
+  margin-top: 3vw;
+margin-bottom: 2.3vw;
+  background-color:rgb(0, 0, 0)
+}
+.footer{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 6;
+  color: rgb(0, 0, 0);
+  margin-top: -2vw;
+  padding-bottom: 2vw;
+  
+}
+
+.footer span{
+ font-size: 3vw;
+ margin-top: 2vw;
+ cursor: pointer;
+}
+.slidesConOf{
+  opacity: 0;
+
+}
+.noBackgroung{
+ transition: 0.3s;
+}
+.background{
+  position: sticky;
+  z-index: 2;
+  bottom: 0px;
+  width: 100%;
+  transition: 0.3s;
+  margin-top: -1vw;
+  height: 70vw;
+  background-color:rgba(0, 0, 0, 0.651);
+}
+.info h3{
+  margin: 0px;
+
+}
+.photoCont{
+  width: 50vw;
+  text-align: center;
+}
+.info{
+  position: relative;
+  margin-top: 20vw;
+  width: 10vw;
+  margin-left: 1vw;
+  font-family: 'Montserrat', sans-serif;
+}
+.slideItem{
+  display: flex;
+}
+.slide{
+display: flex;
+width: 70%;
+margin-left: 15%;
+transition: 0.3s;
+padding: 1vw;
+justify-content: center;
+background-color:rgba(255, 255, 255, 0.712);
+}
+.position{
+  margin-top: -30vw;
+  position: relative;
+    z-index: 1;
+}
+
+.photoSlide{
+  height: 27vw;
+}
+
+.slidesContaianer{
+  position: sticky;
+  top: 12vw;
+  z-index: 3;
+  
+}
+.choice h4{
+  font-size: 1.8vw;
+}
+.choice{
+  margin-left: 10vw;
+  font-family: 'Montserrat', sans-serif;
+}
+.filter h1{
+    margin-top: 5vw;
+    color: rgba(0, 0, 0, 0.445);
+    margin-left: 25%;
+    font-size: 4vw;
+    font-family: 'Montserrat', sans-serif;
+}
+.images:hover{
+  filter: brightness(70%);
+  transition: 0.2s;
+}
+.images{
+    width: 20vw;
+    margin: 0.6vw;
+    cursor: pointer;transition: 0.3s;
+}
+.filterd{
+    display: flex;
+    flex-direction: column;
+}
+
+.filterd button:focus{
+  font-weight: 500;
+}
+.filterd button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    text-align: left;
+    margin-top: 1vw;font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+}
+.container{ 
+    display: flex;
+    margin-top: 3vw;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.pictures{
+     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 130vw;
+   width: 65%;
+   margin-right: 10vw;
+    
+}
+.theX{
+  display: NONE;
+}
+.nav {
+ 
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+   }
+  .logo{
+   
+    font-size: 2.5vw;
+    padding: 0.3vw;
+    margin-top: 0vw;
+  }
+  .navlist ul{
+    display: flex; 
+    position: relative;
+    z-index: 2;
+    margin-top: 1vw;
+  }
+  .navlist ul li{
+    margin-left: 5vw;position: relative;
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 0.3vw;
+    border-bottom: 2px solid rgba(255, 0, 0, 0);
+  }
+  
+    
+  .navlist ul li:hover{
+    border-bottom: 2px solid red;
+    
+  }
+  .theMenu{
+    display: none;
+  }
+  .mobilesNav{
+    display: none;
+  }
+  @media screen and (max-width:900px) {
+    .mobilesNav li:hover{
+      color: red;
+      transition: 0.3s;
+    }
+    .theX{
+      display: block;
+      position: absolute;
+      z-index: 10;
+      margin-top: 0;
+      right: 0;
+      padding: 5vw;
+      padding-bottom: 4vw;
+      font-size: 8vw;
+      transition: 0.3s;
+    }
+    .theMenu{
+      display: block;
+      position: absolute;
+      z-index: 10;
+      margin-top: 0;
+      right: 0;
+      padding: 5vw;
+     
+      font-size: 8vw;
+     padding-left: 40vw;
+      border-radius: 0%;
+      text-align: right;
+      
+      background-color: white;
+      padding-right: 5vw;
+      padding-bottom: 540vw;
+      padding-top: 5vw;
+      transition: 0.3s;
+     
+    }
+    
+    .mobilesNav{
+      display: block;
+      position: absolute;
+      transition-delay: 0.4s;
+      transition: 0.3s;
+      z-index: 10;
+      right: 20vw;
+      margin-top: 23vw;
+    }
+    .mobilesNav li{
+      margin-top: 10vw;
+  
+    }
+
+  .slidesContaianer{
+  display: none;
+  }
+  .slidesConOf{
+    display: none;
+  }
+  .filter h1{
+    font-size: 9vw;
+    margin-left: 30%;
+  }
+    .choice h4{
+      font-size: 3vw;
+    }
+    .choice{
+      margin-left: 5vw;
+    }
+    .filterd{
+      width: 26vw;
+    }
+    .filterd button{
+      font-size: 3vw;
+    }
+    .images{
+      width: 60vw;
+      margin-top: 3vw;
+    }
+    .pictures{
+      height: auto;
+    }
+    .background{
+      display: none;
+    }
+    .filter{
+      margin-top: 40vw;
+    }
+    .slidesContaianer{
+     display: none;
+    }
+    .footer{
+      
+      margin-top: -20vw;
+    }
+    .form textarea{
+      width: 49vw;
+      height: 10vw;
+    }
+    .form{
+      margin-top:0;
+    }
+    .form p{
+      font-size: 3vw;
+      
+      margin-bottom: 0;margin-top:5vw;
+    }
+    .form input{
+      width: 49vw;
+      font-size: 3vw;
+      
+      height: auto;
+    }
+    .footer p{
+      margin: 0;
+      
+    }
+    .footer span{
+      font-size: 7vw;
+      margin-top: 23vw;
+    }
+    .footer{
+      position: absolute;font-size: 3vw;
+      padding-bottom: 10vw;
+    }
+    .contactCont{
+      height: 113vw;
+    }
+    .video{
+      width: 200%;
+    }
+    .contPara{
+      display: none;
+    }
+    .steve h6{
+      font-size: 4vw;
+      margin-left: 75%;
+    }
+    .steve p{
+      font-size: 2vw; margin-left: 75%;
+    }
+    .steve h5{
+      font-size:4vw; margin-left: 75%;
+    }
+    .read button{
+      width: 40%;
+      
+      margin-right: 0;
+      font-size: 3vw;
+  transform: translateY(-15vw);
+      padding: 1vw;
+    }
+    .gallery h2{
+      margin: 0;
+      margin-left: 15%;
+      font-size: 8vw;
+      margin-top: 9vw;
+      margin-bottom: 9vw;
+    }
+    .steve{
+      height: 90vw;
+    }
+    .galleryImg{
+      width: 30vw;
+    }
+    .flex{
+      width: 30%;
+      height: 80vw;
+      margin-left: 17%;
+      margin-bottom: 10vw;
+    }
+    .gallery{
+      width: 100%;
+      margin-left: 0;
+    }
+    .galleryCont{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .logo{
+      font-size: 6.5vw;
+      padding: 2vw;
+      margin-top: 4.5vw;
+      height: 14vw;
+      margin-left: -6vw;
+      width: 14vw;
+      border-radius: 50%;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.76);
+    }
+    .details h1{
+      font-size: 9vw;
+      margin-top: 12vw;
+      margin-left: 15%;
+      width: 40%;
+      
+    }
+    .container{
+      background-size: 150vw;
+      padding-bottom: 30vw;
+    }
+    .details{
+      width:100%;
+      margin-left: 0;
+      
+    }
+    .details h3{
+      font-size: 4vw;
+      width: 70%;
+      margin-top: 9vw;
+      margin-left: 15%;
+      
+    }
+  .slides{
+    display: none;
+  }
+  .button{
+    font-size: 3vw;
+    border: 2px solid black;
+    width: 40%;
+    padding: 1vw;
+    margin-top: 3vw;margin-bottom: 10vw;
+  }
+  
+  
+  .experiance{
+    margin-left: 15%;
+  }.education{
+    margin-left: 15%;
+  }
+  .credit{
+    display:flex;
+    flex-direction: column;
+margin-bottom: 40vw;
+    justify-content: initial;
+  }
+  .education p{
+    font-size:3vw
+  }
+  .experiance p{
+    font-size:3vw
+  }
+  .education h4{
+    font-size:3.8vw
+  }
+  .experiance h4{
+    font-size:3.8vw
+  }
+  .education h1{
+    font-size:8vw
+  }
+  .experiance h1{
+    font-size:8vw
+  }
+   .navlist{
+    display: none;
+  }
+  .aboutMe h1{
+    font-size: 9vw;
+margin-left: 10%;
+  }
+  .aboutMe p{
+    font-size: 3.3vw;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .aboutMe{
+    display: block;
+    width:100%;
+  }
+  }
