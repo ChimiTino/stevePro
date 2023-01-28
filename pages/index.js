@@ -46,7 +46,7 @@ setTimeout(() => {
       <ul> 
           <li><Link href='/'>Home</Link></li>
           <li><Link href='/gallery'>Gallery</Link></li>
-          <Link href='/#contact' onClick={()=> setOnMenu(false)}><li>Contact</li></Link>
+          <Link href='/#contact' scroll={true} onClick={()=> setOnMenu(false)}><li>Contact</li></Link>
           <li><Link href='/about'>About Me</Link></li>
         </ul>
       </div></div>

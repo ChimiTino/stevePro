@@ -24,14 +24,14 @@ function About() {
        
        <div className={styles.logo}>
        
-        <a href= "/">
+        <Link href= "/">
         <span className='s-logo'>
           s
         </span>
         <span className='j-logo'>
           j
         </span>
-        </a>
+        </Link>
         
       </div>
      

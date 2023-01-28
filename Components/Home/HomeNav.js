@@ -34,7 +34,7 @@ function HomeNav() {
         <ul>
           <Link href='/'><li>Home</li></Link>
           <Link href='/gallery'><li>Gallery</li></Link>
-          <Link href='/#contact'><li>Contact</li></Link>
+          <Link href='/#contact' scroll={true}><li>Contact</li></Link>
           <Link href='/about'><li>About Me</li></Link>
         </ul>
       </div>

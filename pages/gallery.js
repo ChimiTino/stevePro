@@ -42,7 +42,7 @@ setTimeout(() => {
       <ul>
         <li><Link href='/'>Home</Link></li>
           <li><Link href='/gallery'>Gallery</Link></li>
-          <Link href='/#contact'><li>Contact</li></Link>
+          <Link href='/#contact' scroll={true}><li>Contact</li></Link>
           <li><Link href='/about'>About Me</Link></li>
         </ul>
       </div></div>
@@ -52,14 +52,14 @@ setTimeout(() => {
        
        <div className={styles.logo}>
        
-        <a href= "/">
+        <Link href= "/">
         <span className='s-logo'>
           s
         </span>
         <span className='j-logo'>
           j
         </span>
-        </a>
+        </Link>
         
       </div>
      
@@ -67,7 +67,7 @@ setTimeout(() => {
         <ul>
           <li><Link href='/'>Home</Link></li>
           <li><Link href='/gallery'>Gallery</Link></li>
-          <a href='/#contact'><li>Contact</li></a>
+          <Link href='/#contact' scroll={true}><li>Contact</li></Link>
           <li><Link href='/about'>About Me</Link></li>
         </ul>
       </div>
