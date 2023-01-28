@@ -10,7 +10,12 @@ import img from '../../public/Capture.PNG'
 //}
 
 
-// 
+// <ul>
+//<Link href='/'><li>Home</li></Link>
+///<Link href='/gallery'><li>Gallery</li></Link>
+//<Link href='/#contact' scroll={true}><li>Contact</li></Link>
+//<Link href='/about'><li>About Me</li></Link>
+//</ul>
 
 function HomeNav() {
   return (
@@ -32,10 +37,10 @@ function HomeNav() {
       </Link>
       <div className={styles.navlist}>
         <ul>
-          <Link href='/'><li>Home</li></Link>
-          <Link href='/gallery'><li>Gallery</li></Link>
-          <Link href='/#contact' scroll={true}><li>Contact</li></Link>
-          <Link href='/about'><li>About Me</li></Link>
+          <li><Link href='/'>Home</Link></li>
+          <li><Link href='/gallery'>Gallery</Link></li>
+          <li><Link href='/#contact' scroll={true}>Contact</Link></li>
+          <li><Link href='/about'>About Me</Link></li>
         </ul>
       </div>
     </nav>

@@ -24,19 +24,19 @@ function About() {
        
        <div className={styles.logo}>
        
-        <Link href= "/">
+        <Link href= "/"><>
         <span className='s-logo'>
           s
         </span>
         <span className='j-logo'>
           j
-        </span>
-        </Link>
+        </span></>
+       </Link> 
         
       </div>
      
       <div className={styles.navlist}>
-        <ul>
+        <ul role="menu" id ="main-menu">
           <li><Link href='/'>Home</Link></li>
           <li><Link href='/gallery'>Gallery</Link></li>
           <li><Link href='/contact'>Contact</Link></li>
@@ -56,7 +56,8 @@ function About() {
         <header>
           <h1>About Me</h1>
           <p><b>I'm Steve Johnson, a free-lance illustrator and graphic designer from Winnipeg, Canada. I have more than three years of agency experience and have focused primarily on projects involving branding and identity as well as illustration work.</b>
-          <br/><br/><br/>
+         </p>
+         <p style={{marginTop:"6vw"}}>
           I watched a ton of animations as a child and was always in awe of beautifully illustrated books, which ultimately paved the way for me to pursue careers as a designer and illustrator. Being a cat mom, a video game nerd, and trying to spend as much time outside as possible keep me busy when I'm not at my laptop.
           </p>
 
