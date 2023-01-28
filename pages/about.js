@@ -54,8 +54,8 @@ function About() {
               
           </div>
         <header>
-          <h1>About Me</h1>
-          <p><b>I'm Steve Johnson, a free-lance illustrator and graphic designer from Winnipeg, Canada. I have more than three years of agency experience and have focused primarily on projects involving branding and identity as well as illustration work.</b>
+          <h1 style={{fontWeightont:"600"}}>About Me</h1>
+          <p >I'm Steve Johnson, a free-lance illustrator and graphic designer from Winnipeg, Canada. I have more than three years of agency experience and have focused primarily on projects involving branding and identity as well as illustration work.
          </p>
          <p style={{marginTop:"6vw"}}>
           I watched a ton of animations as a child and was always in awe of beautifully illustrated books, which ultimately paved the way for me to pursue careers as a designer and illustrator. Being a cat mom, a video game nerd, and trying to spend as much time outside as possible keep me busy when I'm not at my laptop.
