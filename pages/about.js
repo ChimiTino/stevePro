@@ -3,6 +3,7 @@ import Link from 'next/Link'
 import styles from '../styles/Work.module.css'
 import * as AiIcons from 'react-icons/Ai'
 
+
 function About() {
   const [loading, setLoading] = useState(false)
   useEffect (()=>{
