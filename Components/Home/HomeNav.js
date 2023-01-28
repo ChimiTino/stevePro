@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
+import Link from 'next/Link'
 import styles from '../../styles/Home.module.css'
 import { slideList } from "../PhotoList/photoList";
 import Carousel from 'react-bootstrap/Carousel'
@@ -34,7 +34,7 @@ function HomeNav() {
         <ul>
           <Link href='/'><li>Home</li></Link>
           <Link href='/gallery'><li>Gallery</li></Link>
-          <a href='/#contact'><li>Contact</li></a>
+          <Link href='/#contact'><li>Contact</li></Link>
           <Link href='/about'><li>About Me</li></Link>
         </ul>
       </div>

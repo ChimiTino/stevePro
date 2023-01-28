@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import Link from 'next/link'
+import Link from 'next/Link'
 import GalleryPg from '../Components/Gallery/GalleryPg'
 import styles from '../styles/Work.module.css'
 import * as   RiIcon from 'react-icons/ri'
@@ -9,7 +9,7 @@ import MoblieNav from '../Components/Gallery/moblieNav'
 
 
 
-export default function gallery() {
+export default function Gallery() {
   const[togslide, setTogslide] = useState(false);
   const [loading, setLoading] = useState(false);
   const [onMenu, setOnMenu] = useState(false);
@@ -42,7 +42,7 @@ setTimeout(() => {
       <ul>
         <li><Link href='/'>Home</Link></li>
           <li><Link href='/gallery'>Gallery</Link></li>
-          <a href='/#contact'><li>Contact</li></a>
+          <Link href='/#contact'><li>Contact</li></Link>
           <li><Link href='/about'>About Me</Link></li>
         </ul>
       </div></div>

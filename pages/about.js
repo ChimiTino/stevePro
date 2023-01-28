@@ -3,7 +3,7 @@ import Link from 'next/Link'
 import styles from '../styles/Work.module.css'
 import * as AiIcons from 'react-icons/Ai'
 
-function about() {
+function About() {
   const [loading, setLoading] = useState(false)
   useEffect (()=>{
   setLoading(true)
@@ -113,4 +113,4 @@ function about() {
   )
 }
 
-export default about
+export default About

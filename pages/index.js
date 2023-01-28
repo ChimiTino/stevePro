@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useEffect ,useState} from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+import Link from 'next/Link'
 import * as RiIcon from "react-icons/ri"
 import styles from '../styles/Home.module.css'
 import HomeNav from '../Components/Home/HomeNav'
@@ -46,7 +46,7 @@ setTimeout(() => {
       <ul> 
           <li><Link href='/'>Home</Link></li>
           <li><Link href='/gallery'>Gallery</Link></li>
-          <a href='/#contact' onClick={()=> setOnMenu(false)}><li>Contact</li></a>
+          <Link href='/#contact' onClick={()=> setOnMenu(false)}><li>Contact</li></Link>
           <li><Link href='/about'>About Me</Link></li>
         </ul>
       </div></div>

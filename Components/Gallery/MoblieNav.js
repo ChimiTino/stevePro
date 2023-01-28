@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import styles from '../../styles/Work.module.css'
 import * as RiIcon from "react-icons/ri"
-import Link from 'next/link'
+import Link from 'next/Link'
 
 function MoblieNav(onMenu, setOnMenu) {
  
@@ -16,7 +16,7 @@ function MoblieNav(onMenu, setOnMenu) {
       <ul>
           <Link href='/'><li>Home</li></Link>
           <Link href='/gallery'><li>Gallery</li></Link>
-          <a href='/#contact'><li>Contact</li></a>
+          <Link href='/#contact'><li>Contact</li></Link>
           <Link href='/about'><li>About Me</li></Link>
         </ul>
       </div></div>
