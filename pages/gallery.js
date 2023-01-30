@@ -1,10 +1,10 @@
 import React,{useState,useEffect} from 'react'
-import Link from 'next/Link'
+import Link from 'next/link'
 import GalleryPg from '../Components/Gallery/GalleryPg'
 import styles from '../styles/Work.module.css'
 import * as   RiIcon from 'react-icons/ri'
-import * as AiIcons from 'react-icons/Ai'
-import MoblieNav from '../Components/Gallery/moblieNav'
+import * as AiIcons from 'react-icons/ai'
+
 
 
 
