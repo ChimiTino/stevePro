@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/Link'
+import Link from 'next/link'
 import styles from '../../styles/Home.module.css'
 import { slideList } from "../PhotoList/photoList";
 import Carousel from 'react-bootstrap/Carousel'

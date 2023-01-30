@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../styles/Home.module.css'
-import * as AiIcons from 'react-icons/Ai'
+import * as AiIcons from 'react-icons/ai'
 function Contact() {
   return (
     <>

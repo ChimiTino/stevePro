@@ -1,7 +1,7 @@
 import React,{useEffect, useState} from 'react'
-import Link from 'next/Link'
+import Link from 'next/link'
 import styles from '../styles/Work.module.css'
-import * as AiIcons from 'react-icons/Ai'
+import * as AiIcons from 'react-icons/ai'
 
 
 function About() {
