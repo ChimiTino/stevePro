@@ -4,6 +4,7 @@ import styles from '../../styles/Home.module.css'
 import { slideList } from "../PhotoList/photoList";
 import Carousel from 'react-bootstrap/Carousel'
 import img from '../../public/Capture.PNG'
+import { useState } from 'react';
 
 //const divStyle ={
  // backgroundImage: URL()
@@ -17,9 +18,13 @@ import img from '../../public/Capture.PNG'
 //<Link href='/about'><li>About Me</li></Link>
 //</ul>
 
+
+
 function HomeNav() {
+
+  
   return (
-    <div className={styles.container} style={{backgroundImage: `url(/KDNVD.PNG)`}}>
+    <div className={styles.container}  async style = {{backgroundImage: `url(/KDNVD.PNG)`}} >
      
 <span className='gradiant'></span>
 

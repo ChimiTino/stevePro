@@ -1,5 +1,6 @@
 import React, { useCallback, useState, useEffect } from 'react'
 import styles from '../../styles/Work.module.css'
+
 import {newList} from '../PhotoList/photoList'
 import * as BsIcons from 'react-icons/bs'
 import * as HiIcons from 'react-icons/hi'
@@ -122,7 +123,7 @@ setSwitch(true)
           <li key={item.no} onClick={()=>{
             switchNo(item)
           }}>
-          <img src={item.photo} alt={item.title} className={styles.images}/>
+          <img src={item.photo} alt={item.title} className={styles.images} />
           </li>
         )
       })}
