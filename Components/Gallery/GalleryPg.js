@@ -1,4 +1,4 @@
-import React,{useCallBack,useState,useEffect,useRef} from 'react'
+import React,{useCallback,useState,useEffect,useRef} from 'react'
 import styles from '../../styles/Work.module.css'
 import {newList} from '../PhotoList/photoList'
 import * as BsIcons from 'react-icons/bs'
@@ -18,7 +18,7 @@ const [prev, setPrev] = useState(true)
 
 
 
-const switchNo = useCallBack ((item) =>{
+const switchNo = useCallback ((item) =>{
 setNumber(item.no)
 setSwitch(true)
 },[])
@@ -67,7 +67,7 @@ useEffect(() =>{
             
           }}><HiIcons.HiOutlineChevronRight/>
           </div>
-          <span className='theX' onClick ={ useCallBack=( ()=>{
+          <span className='theX' onClick ={ useCallback=( ()=>{
             setSwitch(false)
           },[])}>&times;</span>
         </div>
@@ -119,7 +119,7 @@ useEffect(() =>{
       {newLists.map((item)=>{
 
         return(
-          <li key={item.no} onClick={useCallBack= ( ()=>{
+          <li key={item.no} onClick={useCallback= ( ()=>{
             switchNo(item)
           },[])}>
           <img src={item.photo} alt={item.title} className={styles.images}/>
