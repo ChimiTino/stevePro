@@ -67,9 +67,9 @@ useEffect(() =>{
             
           }}><HiIcons.HiOutlineChevronRight/>
           </div>
-          <span className='theX' onClick ={ useCallback=( ()=>{
+          <span className='theX' onClick ={ ()=>{
             setSwitch(false)
-          },[])}>&times;</span>
+          }}>&times;</span>
         </div>
           
       </div>
@@ -119,9 +119,9 @@ useEffect(() =>{
       {newLists.map((item)=>{
 
         return(
-          <li key={item.no} onClick={useCallback= ( ()=>{
+          <li key={item.no} onClick={()=>{
             switchNo(item)
-          },[])}>
+          }}>
           <img src={item.photo} alt={item.title} className={styles.images}/>
           </li>
         )
