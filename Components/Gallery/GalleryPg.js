@@ -1,4 +1,4 @@
-import {useCallback,useState,useEffect,useRef} from 'react'
+import React, { useCallback, useState, useEffect } from 'react'
 import styles from '../../styles/Work.module.css'
 import {newList} from '../PhotoList/photoList'
 import * as BsIcons from 'react-icons/bs'
@@ -11,7 +11,7 @@ import * as HiIcons from 'react-icons/hi'
 function GalleryPg({setSwitch,togslide }) {
 const[newLists, setNewLists] = useState(newList)
 const[number, setNumber] = useState(0)
-const filterd = useRef()
+
 
 const [next, setNext] = useState(true)
 const [prev, setPrev] = useState(true)
@@ -89,7 +89,7 @@ useEffect(() =>{
           >All</button>
           <button
           className='theO'
-           ref={filterd} 
+           
            onClick ={(e)=>{
             const name = document.querySelector('.theO').innerHTML;
             setNewLists(newList.filter((item) => item.mediam === name))
