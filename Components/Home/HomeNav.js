@@ -50,7 +50,7 @@ function HomeNav() {
         <Carousel>
           {slideList.map((item)=>{
             return(
-            <Carousel.Item>
+            <Carousel.Item key={item.id}>
               <div className={styles.slide}>
                 <img src={item.photo} alt={item.title}/>
                 <p>{item.title}</p>

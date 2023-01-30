@@ -11,24 +11,11 @@ import * as HiIcons from 'react-icons/hi'
 function GalleryPg({setSwitch,togslide }) {
 const[newLists, setNewLists] = useState(newList)
 const[number, setNumber] = useState(0)
-
-
 const [next, setNext] = useState(true)
 const [prev, setPrev] = useState(true)
 
-
-
-const switchNo = useCallback ((item) =>{
-setNumber(item.no)
-setSwitch(true)
-},[])
-
-
-
-useEffect(()=>{
-  console.log(newLists);
-})
 useEffect(() =>{
+  console.log("changed");
   if(number === 0){
     setPrev(false)
   }else{
@@ -42,7 +29,19 @@ useEffect(() =>{
   }
 
     
-  },[number])
+  },[])
+
+const switchNo = useCallback ((item) =>{
+setNumber(item.no)
+setSwitch(true)
+
+
+},[])
+
+
+
+
+
 
   return (
     <>
@@ -90,13 +89,14 @@ useEffect(() =>{
           <button
           className='theO'
            
-           onClick ={(e)=>{
+           onClick ={()=>{
             const name = document.querySelector('.theO').innerHTML;
             setNewLists(newList.filter((item) => item.mediam === name))
           }}>Oil Painting</button>
           <button
           className='theA'
           onClick ={()=>{
+          
             setNewLists(newList)
             const name = document.querySelector('.theA').innerHTML;
             setNewLists(newList.filter((item) => item.mediam === name))

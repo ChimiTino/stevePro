@@ -7,6 +7,7 @@ import styles from '../styles/Home.module.css'
 import HomeNav from '../Components/Home/HomeNav'
 import Gallery from '../Components/Home/Gallery'
 import Contact from '../Components/Home/Contact'
+import { useCallback } from 'react'
 
 
 function Home() {
@@ -19,7 +20,11 @@ setTimeout(() => {
 }, 3000);
 },[])
 
- 
+const Menu = useCallback (() =>{
+setOnMenu(n => false)
+},[]) 
+
+
   return (
   <>
   {loading ? 
@@ -46,11 +51,11 @@ setTimeout(() => {
       <ul> 
           <li><Link href='/'>Home</Link></li>
           <li><Link href='/gallery'>Gallery</Link></li>
-          <Link href='/#contact' scroll={true} onClick={()=> setOnMenu(false)}><li>Contact</li></Link>
+          <Link href='/#contact' scroll={true} onClick={Menu}><li>Contact</li></Link>
           <li><Link href='/about'>About Me</Link></li>
         </ul>
       </div></div>
-      <div  onClick={()=> setOnMenu(false)}>
+      <div  onClick={Menu}>
       <HomeNav/>
       <Gallery/>
       <Contact/>

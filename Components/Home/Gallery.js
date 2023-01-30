@@ -23,7 +23,7 @@ function Gallery() {
             <div className={styles.flex}>
               {homeGalleryList.map((item)=>{
                 return(
-                  <div className={styles.cardImg}>
+                  <div className={styles.cardImg} key={item.id}>
                     <img className={styles.galleryImg} src={item.photo} alt={item.title}/>
                     <p>{item.title}</p>
                   </div>

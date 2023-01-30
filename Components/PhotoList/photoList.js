@@ -1,44 +1,45 @@
 export const slideList = [
     {
+        id:11,
         title:"Sunset Piller",
         photo:"https://images.pexels.com/photos/14156054/pexels-photo-14156054.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
     },
-    {
+    { id:12,
         title:"Dune",
         photo:"https://images.pexels.com/photos/14082469/pexels-photo-14082469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
-    {
+    { id:13,
         title:"Yellow and Red Light",
         photo:"https://images.pexels.com/photos/14053640/pexels-photo-14053640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
-    {
+    { id:14,
         title:"Red Heart Shape on Blue",
         photo:"https://images.pexels.com/photos/14053639/pexels-photo-14053639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
 ]
 
 export const homeGalleryList=[
-    {
+    {id:21,
         title:"Prime Angle",
         mediam:"Oil Painting",
         photo:"https://images.pexels.com/photos/14092594/pexels-photo-14092594.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"
     },
-    {
+    {id:22,
         title:"Party",
         mediam:"Acrylic Painting",
         photo:"https://images.pexels.com/photos/14082472/pexels-photo-14082472.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"
     },
-    {
+    {id:23,
         title:"Invert Sun",
         mediam:"Digital Illistration",
         photo:"https://images.pexels.com/photos/14156053/pexels-photo-14156053.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
-    {
+    {id:24,
         title:"Abstract Prime",
         mediam:"Acrylic Painting",
         photo:"https://images.pexels.com/photos/14082474/pexels-photo-14082474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
-    {
+    {id:25,
         title:"Red and Yellow Concrete Staircase",
         mediam:"Digital Illistration",
         photo:"https://images.pexels.com/photos/14014557/pexels-photo-14014557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"

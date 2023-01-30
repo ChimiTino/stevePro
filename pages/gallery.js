@@ -4,6 +4,7 @@ import GalleryPg from '../Components/Gallery/GalleryPg'
 import styles from '../styles/Work.module.css'
 import * as   RiIcon from 'react-icons/ri'
 import * as AiIcons from 'react-icons/ai'
+import { useCallback } from 'react'
 
 
 
@@ -11,26 +12,17 @@ import * as AiIcons from 'react-icons/ai'
 
 export default function Gallery() {
   const[togslide, setTogslide] = useState(false);
-  const [loading, setLoading] = useState(false);
+ 
   const [onMenu, setOnMenu] = useState(false);
 
-useEffect(()=>{
-setLoading(true)
-setTimeout(() => {
-  setLoading(false)
-}, 3000);
-},[])
-
+const Menu = useCallback(()=>{
+  setOnMenu(n => false);
+},[onMenu])
 
   return (
 
     <>
-    {loading ? 
-   <div className={styles.gif}>
-   <p className='s-logo'>s</p>
-   <p className='j-logo'>j</p>
-     </div>
-    : 
+   
     <div >
       <div >
       <p className={ onMenu ? styles.theMenu : "opp"} ><RiIcon.RiCloseFill onClick = {() => setOnMenu(i => !i)}/></p>
@@ -47,7 +39,7 @@ setTimeout(() => {
         </ul>
       </div></div>
 
-    <div onClick={()=> {setOnMenu(false); console.log(onMenu);}}> 
+    <div onClick={Menu}> 
       <nav className={styles.nav}>
        
        <div className={styles.logo}>
@@ -85,8 +77,7 @@ setTimeout(() => {
         <div onClick={()=>{
           setTogslide(false)
         }}  className={togslide ?  styles.background: styles.noBackgroung}></div>
-    </div> </div>}
-    
+    </div> </div>
   </>
   )
 }
