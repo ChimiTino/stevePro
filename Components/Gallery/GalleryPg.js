@@ -1,4 +1,4 @@
-import React,{useState,useEffect,useRef, useCallback} from 'react'
+import React,{useCallback,useState,useEffect,useRef} from 'react'
 import styles from '../../styles/Work.module.css'
 import {newList} from '../PhotoList/photoList'
 import * as BsIcons from 'react-icons/bs'
