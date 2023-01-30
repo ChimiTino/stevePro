@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import styles from '../../styles/Work.module.css'
 import * as RiIcon from "react-icons/ri"
-import Link from 'next/Link'
+import Link from 'next/link'
 
 function MoblieNav(onMenu, setOnMenu) {
  

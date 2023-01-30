@@ -17,11 +17,6 @@ const [next, setNext] = useState(true)
 const [prev, setPrev] = useState(true)
 
 
-function Filter() {
- const fname = filterd.current.value
- console.log(fname);
-  
-}
 
 function switchNo(item){
 setNumber(item.no)
@@ -47,7 +42,7 @@ useEffect(() =>{
   }
 
     
-  })
+  },[])
 
   return (
     <>
